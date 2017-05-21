@@ -1,0 +1,13 @@
+@import 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+
+section {
+  @include make-row();
+  article {
+    @include make-lg-column(8);
+    @include make-md-column(10);
+    @include make-sm-column(10);
+    @include make-xs-column(12);
+  }
+}
