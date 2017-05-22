@@ -5824,32 +5824,32 @@ section {
     clear: both; }
   section article {
     position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
     float: left;
     width: 100%;
     min-height: 1px;
     padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 1200px) {
-      section article {
-        float: left;
-        width: 66.66667%; } }
-    @media (min-width: 992px) {
-      section article {
-        float: left;
-        width: 83.33333%; } }
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* @include make-lg-column(8); */
+    /* @include make-lg-colulmn-offset() */ }
     @media (min-width: 768px) {
       section article {
         float: left;
-        width: 83.33333%; } }
+        width: 66.66667%; } }
+    @media (min-width: 768px) {
+      section article {
+        margin-left: 16.66667%; } }
+    @media (min-width: 992px) {
+      section article {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 992px) {
+      section article {
+        margin-left: 25%; } }

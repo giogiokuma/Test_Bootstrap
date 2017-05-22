@@ -5,9 +5,13 @@
 section {
   @include make-row();
   article {
-    @include make-lg-column(8);
-    @include make-md-column(10);
-    @include make-sm-column(10);
     @include make-xs-column(12);
+    @include make-sm-column(8);
+    @include make-sm-column-offset(2);
+    @include make-md-column(6);
+    @include make-md-column-offset(3); 
+
+    /* @include make-lg-column(8); */
+    /* @include make-lg-colulmn-offset() */
   }
 }
